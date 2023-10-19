@@ -1,0 +1,39 @@
+body{
+    min-height: 150vh;
+}
+.pembungkus{
+    height: 300px;
+    width: 300px;
+    border: 10px solid lightblue;
+    margin: 100px auto;
+    position: relative;
+}
+
+.kotak {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    font-weight:700;
+    color: aliceblue;
+    font-family: Arial;
+    text-align: center;
+    line-height: 100px;
+}
+
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color:gold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.tiga {
+    background-color: limegreen;
+    position: fixed;
+    top: 0;
+}
